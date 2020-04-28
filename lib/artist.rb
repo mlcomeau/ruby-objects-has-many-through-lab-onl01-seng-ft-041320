@@ -1,21 +1,21 @@
 class Artist
-  attr_reader 
+  attr_reader
   @@all = []
   def initialize (name)
-    @name = name 
-    @@all << self 
-  end 
+    @name = name
+    @@all << self
+  end
 
-  def self.all 
-    @@all 
-  end 
+  def self.all
+    @@all
+  end
 
   def new_song (name, genre)
     new_song = Song.new(name, genre)
-    new_song.artist = self 
-  end 
+    new_song.artist = self
+  end
 
-  def songs 
+  def songs
     Song.all.select {|song| song.artist == self}
-  end 
+  end
 end
