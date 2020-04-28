@@ -1,2 +1,2 @@
-class Genre 
-end 
+class Genre
+end
