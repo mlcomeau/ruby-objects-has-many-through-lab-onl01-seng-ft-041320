@@ -1,2 +1,2 @@
-class Apppointment 
-end 
+class Apppointment
+end
