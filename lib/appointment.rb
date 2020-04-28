@@ -1,4 +1,4 @@
-class Apppointment
+class Appointment
   attr_reader :date, :patient, :doctor
   @@all = []
   def initialize
