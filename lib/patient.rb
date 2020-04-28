@@ -1,2 +1,2 @@
-class Patient 
-end 
+class Patient
+end
